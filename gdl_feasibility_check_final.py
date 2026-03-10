@@ -32,7 +32,7 @@ from sklearn.metrics import r2_score
 import warnings
 warnings.filterwarnings('ignore')
 
-
+#CHANGE YOUR BASE DIRECTORY
 BASE_DIR = Path("/Users/tanisha/Desktop/MP/for_Tanisha/fmriresults01")
 ANAT_DIR = BASE_DIR / "dhcp_anat_pipeline"
 FMRI_DIR = BASE_DIR / "dhcp_fmri_pipeline"
